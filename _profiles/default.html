@@ -16,7 +16,7 @@ default: true
 # with a minimum value of 12, as only two scheduled tests per day are allowed.
 # To disabled repeated tests, simply remove this property from the profile.
 #
-interval: 12
+# interval: 12
 
 #
 # WebPageTest test parameters
@@ -24,7 +24,7 @@ interval: 12
 parameters:
   connectivity: "Cable"
   location: "ec2-ap-southeast-1:Chrome"
-  runs: 1
+  runs: 2
   url: "http://www.99acres.com/property-in-noida-ffid"
 
 #
